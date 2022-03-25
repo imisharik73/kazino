@@ -1,61 +1,1591 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../css/style.css" type="text/css" />
-  <title>Kazino</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
+	<link rel="stylesheet" href="assets/css/app.min.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+	<script src="assets/js/app.min.js"></script>
+
+	<title>Playsomeslots</title>
 </head>
-
 <body>
-  <img src="sprite.svg"
-    style="position: absolute; left: -999999999999px; top: -9999999999px; overflow: hidden; width: 0; height: 0;">
+	<img src="assets/img/bg.png">
 
+	<header class="header">
+		<div class="wrap">
+			<a href="" class="header__logo">
+				<img src="assets/img/logo.svg" alt="logo">
+				Play Some Slots
+			</a>
 
+			<ul>
+				<li class="active">
+					<a href="">HOME</a>
+				</li>
+				<li class="menu-item-has-children">
+					<a href="">Casino Reviews</a>
+					<ul>
+						<li><a href="">
+							<img src="">
+							Best online casino
+						</a></li>
+						<li><a href="">
+							<img src="">
+							Best online casino
+						</a></li>
+					</ul>
+				</li>
+				<li class="menu-item-has-children">
+					<a href="">Free Slot Games</a>
+					<ul>
+						<li><a href="">
+							<img src="">
+							Best online casino
+						</a></li>
+						<li><a href="">
+							<img src="">
+							Best online casino
+						</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="">Blog</a>
+				</li>
+			</ul>
 
+			<a href="" class="btn btn--small btn--yellow text--600 vip">VIP <span>Newsletter</span></a>
 
-  <div class="container">
-    <header class="header">
-      <div class="header__left">
-        <svg>
-          <use xlink:href="sprite.svg#logo"></use>
-        </svg>
-        <p>Play Some Slots</p>
-      </div>
+			<button class="btn btn--burger btn--transparent" mobile-menu-button>
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+			</button>
+		</div>
+	</header>
 
-      <div class="header__right">
-        <ul>
-          <li><a href="#">Home</a></li>
+	<section class="short-more">
+		<div class="wrap">
+			<h1 class="short-more__title">Top Online Slots Casinos & Casino Reviews</h1>
 
-          <li><a href="#">Casino Reviews</a>
-            <svg>
-              <use xlink:href="sprite.svg#arrow"></use>
-            </svg></li>
-          
+			<div class="short-more__short">
+				<p>Welcome to Play Some Slots! We are a dedicated team of experts whose job is to bring you unbiased reviews on top-rated casino sites where you can play your favourite online slots.</p>
+			</div>
 
-          <li><a href="#">Free Slot Games</a>
-            <svg>
-              <use xlink:href="sprite.svg#arrow"></use>
-            </svg></li>
-          
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">VIP Newsletter</a></li>
-        </ul>
-      </div>
-    </header>
+			<button class="btn btn--transparent btn--more btn--small text--600"> information <img src="assets/img/icon-plus.svg"></button>
 
+			<div class="short-more__more">
+				<p>Welcome to Play Some Slots! We are a dedicated team of experts whose job is to bring you unbiased reviews on top-rated casino sites where you can play your favourite online slots.</p>
+			</div>
+		</div>
+	</section>
 
-  </div>
+	<section class="slider" data-slider-per-view="1">
+		<div class="wrap">
+			<div class="swiper">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide banner-slide" style="background-image:url(assets/img/tiger-bg.png)">
+						<p class="banner-slide__title">RED TIGER</p>
+						<p class="banner-slide__desc">We’re happy to announce that Play Some Slot team added a new game provider to our free slots collection. </p>
+						<a href="" class="btn btn--yellow text--600 text--upper">PLAY NOW</a>
 
+						<img src="assets/img/tiger-logo.png" alt="logo" class="banner-slide__logo">
+					</div>
 
+					<div class="swiper-slide banner-slide" style="background-image:url(assets/img/tiger-bg.png)">
+						<p class="banner-slide__title">RED TIGER</p>
+						<p class="banner-slide__desc">We’re happy to announce that Play Some Slot team added a new game provider to our free slots collection. </p>
+						<a href="" class="btn btn--yellow text--600 text--upper">PLAY NOW</a>
 
+						<img src="assets/img/tiger-logo.png" alt="logo" class="banner-slide__logo">
+					</div>
 
+					<div class="swiper-slide banner-slide" style="background-image:url(assets/img/tiger-bg.png)">
+						<p class="banner-slide__title">RED TIGER</p>
+						<p class="banner-slide__desc">We’re happy to announce that Play Some Slot team added a new game provider to our free slots collection. </p>
+						<a href="" class="btn btn--yellow text--600 text--upper">PLAY NOW</a>
 
+						<img src="assets/img/tiger-logo.png" alt="logo" class="banner-slide__logo">
+					</div>
+				</div>
+			</div>
+			<div class="swiper-pagination"></div>
+			<div class="swiper-button-prev"></div>
+			<div class="swiper-button-next"></div>
+		</div>
+	</section>
 
+	<section class="slots">
+		<div class="wrap">
+			<div class="slots__item bg--lilac">
+				<div class="slots__item__top">
+					<div class="slots__item__free-spins">
+						+125
+						<span>free spins</span>
+					</div>
 
+					<div class="slots__item__logo">
+						<img src="assets/img/tsars-logo.png" alt="">
+					</div>
+				</div>
 
+				<div class="slots__item__up-to">
+					<span>up to</span>
+					$400
+				</div>
+
+				<div class="slots__item__bottom">
+					<a href="" class="btn btn--yellow btn--two-rows">
+						Get your
+						<span class="text--700">bonus now</span>
+						<img src="assets/img/icon-circle-arrow.svg">
+					</a>
+
+					<a href="" class="btn btn--dark">
+						<img src="assets/img/icon-info.svg">
+					</a>
+				</div>
+			</div>
+
+			<div class="slots__item bg--brown">
+				<div class="slots__item__top">
+					<div class="slots__item__free-spins">
+						+125
+						<span>free spins</span>
+					</div>
+
+					<div class="slots__item__logo">
+						<img src="assets/img/tsars-logo.png" alt="">
+					</div>
+				</div>
+
+				<div class="slots__item__up-to">
+					+100%
+					<span>up to $1000</span>
+				</div>
+
+				<div class="slots__item__bottom">
+					<a href="" class="btn btn--yellow btn--two-rows">
+						Get your
+						<span class="text--700">bonus now</span>
+						<img src="assets/img/icon-circle-arrow.svg">
+					</a>
+
+					<a href="" class="btn btn--dark">
+						<img src="assets/img/icon-info.svg">
+					</a>
+				</div>
+			</div>
+
+			<div class="slots__item bg--mint">
+				<div class="slots__item__top">
+					<div class="slots__item__free-spins">
+						+125
+						<span>free spins</span>
+					</div>
+
+					<div class="slots__item__logo">
+						<img src="assets/img/tsars-logo.png" alt="">
+					</div>
+				</div>
+
+				<div class="slots__item__up-to">
+					<span>up to</span>
+					$400
+				</div>
+
+				<div class="slots__item__bottom">
+					<a href="" class="btn btn--yellow btn--two-rows">
+						Get your
+						<span class="text--700">bonus now</span>
+						<img src="assets/img/icon-circle-arrow.svg">
+					</a>
+
+					<a href="" class="btn btn--dark">
+						<img src="assets/img/icon-info.svg">
+					</a>
+				</div>
+			</div>
+
+			<div class="slots__item bg--purple">
+				<div class="slots__item__top">
+					<div class="slots__item__free-spins">
+						+125
+						<span>free spins</span>
+					</div>
+
+					<div class="slots__item__logo">
+						<img src="assets/img/tsars-logo.png" alt="">
+					</div>
+				</div>
+
+				<div class="slots__item__up-to">
+					<span>up to</span>
+					$400
+				</div>
+
+				<div class="slots__item__bottom">
+					<a href="" class="btn btn--yellow btn--two-rows">
+						Get your
+						<span class="text--700">bonus now</span>
+						<img src="assets/img/icon-circle-arrow.svg">
+					</a>
+
+					<a href="" class="btn btn--dark">
+						<img src="assets/img/icon-info.svg">
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="short-more">
+		<div class="wrap">
+			<h2 class="short-more__title">Top Online Slots Casinos</h2>
+
+			<div class="short-more__short">
+				<p>So far, we have conducted reviews on dozens of casino sites and concluded that these are the best ones. Note that the list below is not final and that we will update it as new operators show up on our radar or the existing ones change their initial offers.</p>
+			</div>
+
+			<button class="btn btn--transparent btn--more btn--small text--600"> information <img src="assets/img/icon-plus.svg"></button>
+
+			<div class="short-more__more">
+				<p>So far, we have conducted reviews on dozens of casino sites and concluded that these are the best ones. Note that the list below is not final and that we will update it as new operators show up on our radar or the existing ones change their initial offers.</p>
+			</div>
+		</div>
+	</section>
+
+	<section class="casino-list">
+		<div class="wrap">
+			<div class="casino-list__item">
+				<img src="assets/img/tsars-logo.png" alt="" class="casino-list__item__logo bg--lilac">
+
+				<div class="casino-list__item__name">
+					<span>Tsar Casino</span>
+					<a href="">www.tsar.com</a>
+				</div>
+
+				<div class="casino-list__item__rating" data-rating="1">
+					<span class="casino-list__item__rating__star"></span>
+					<span class="casino-list__item__rating__star"></span>
+					<span class="casino-list__item__rating__star"></span>
+					<span class="casino-list__item__rating__star"></span>
+					<span class="casino-list__item__rating__star"></span>
+
+					<span class="casino-list__item__rating__count">1 / 5</span>
+				</div>
+
+				<div class="casino-list__item__text">
+					<span>up to</span>
+					$400
+				</div>
+
+				<div class="casino-list__item__text">
+					+125
+					<span>free spins</span>
+				</div>
+
+				<a href="" class="btn btn--grey">
+					<img src="assets/img/icon-info.svg">
+				</a>
+
+				<a href="" class="btn btn--yellow btn--two-rows">
+					Get your
+					<span class="text--700">bonus now</span>
+					<img src="assets/img/icon-circle-arrow.svg">
+				</a>
+			</div>
+			<div class="casino-list__item">
+				<img src="assets/img/tsars-logo.png" alt="" class="casino-list__item__logo bg--brown">
+
+				<div class="casino-list__item__name">
+					<span>Tsar Casino</span>
+					<a href="">www.tsar.com</a>
+				</div>
+
+				<div class="casino-list__item__rating" data-rating="2">
+					<span class="casino-list__item__rating__star"></span>
+					<span class="casino-list__item__rating__star"></span>
+					<span class="casino-list__item__rating__star"></span>
+					<span class="casino-list__item__rating__star"></span>
+					<span class="casino-list__item__rating__star"></span>
+
+					<span class="casino-list__item__rating__count">2 / 5</span>
+				</div>
+
+				<div class="casino-list__item__text">
+					<span>up to</span>
+					$400
+				</div>
+
+				<div class="casino-list__item__text">
+					+125
+					<span>free spins</span>
+				</div>
+
+				<a href="" class="btn btn--grey">
+					<img src="assets/img/icon-info.svg">
+				</a>
+
+				<a href="" class="btn btn--yellow btn--two-rows">
+					Get your
+					<span class="text--700">bonus now</span>
+					<img src="assets/img/icon-circle-arrow.svg">
+				</a>
+			</div>
+			<div class="casino-list__item">
+				<img src="assets/img/tsars-logo.png" alt="" class="casino-list__item__logo bg--lilac">
+
+				<div class="casino-list__item__name">
+					<span>Tsar Casino</span>
+					<a href="">www.tsar.com</a>
+				</div>
+
+				<div class="casino-list__item__rating" data-rating="3">
+					<span class="casino-list__item__rating__star"></span>
+					<span class="casino-list__item__rating__star"></span>
+					<span class="casino-list__item__rating__star"></span>
+					<span class="casino-list__item__rating__star"></span>
+					<span class="casino-list__item__rating__star"></span>
+
+					<span class="casino-list__item__rating__count">3 / 5</span>
+				</div>
+
+				<div class="casino-list__item__text">
+					<span>up to</span>
+					$400
+				</div>
+
+				<div class="casino-list__item__text">
+					+125
+					<span>free spins</span>
+				</div>
+
+				<a href="" class="btn btn--grey">
+					<img src="assets/img/icon-info.svg">
+				</a>
+
+				<a href="" class="btn btn--yellow btn--two-rows">
+					Get your
+					<span class="text--700">bonus now</span>
+					<img src="assets/img/icon-circle-arrow.svg">
+				</a>
+			</div>
+			<div class="casino-list__item">
+				<img src="assets/img/tsars-logo.png" alt="" class="casino-list__item__logo bg--brown">
+
+				<div class="casino-list__item__name">
+					<span>Tsar Casino</span>
+					<a href="">www.tsar.com</a>
+				</div>
+
+				<div class="casino-list__item__rating" data-rating="3.5">
+					<span class="casino-list__item__rating__star"></span>
+					<span class="casino-list__item__rating__star"></span>
+					<span class="casino-list__item__rating__star"></span>
+					<span class="casino-list__item__rating__star"></span>
+					<span class="casino-list__item__rating__star"></span>
+
+					<span class="casino-list__item__rating__count">3.5 / 5</span>
+				</div>
+
+				<div class="casino-list__item__text">
+					<span>up to</span>
+					$400
+				</div>
+
+				<div class="casino-list__item__text">
+					+125
+					<span>free spins</span>
+				</div>
+
+				<a href="" class="btn btn--grey">
+					<img src="assets/img/icon-info.svg">
+				</a>
+
+				<a href="" class="btn btn--yellow btn--two-rows">
+					Get your
+					<span class="text--700">bonus now</span>
+					<img src="assets/img/icon-circle-arrow.svg">
+				</a>
+			</div>
+			<div class="casino-list__item">
+				<img src="assets/img/tsars-logo.png" alt="" class="casino-list__item__logo bg--lilac">
+
+				<div class="casino-list__item__name">
+					<span>Tsar Casino</span>
+					<a href="">www.tsar.com</a>
+				</div>
+
+				<div class="casino-list__item__rating" data-rating="4">
+					<span class="casino-list__item__rating__star"></span>
+					<span class="casino-list__item__rating__star"></span>
+					<span class="casino-list__item__rating__star"></span>
+					<span class="casino-list__item__rating__star"></span>
+					<span class="casino-list__item__rating__star"></span>
+
+					<span class="casino-list__item__rating__count">4 / 5</span>
+				</div>
+
+				<div class="casino-list__item__text">
+					<span>up to</span>
+					$400
+				</div>
+
+				<div class="casino-list__item__text">
+					+125
+					<span>free spins</span>
+				</div>
+
+				<a href="" class="btn btn--grey">
+					<img src="assets/img/icon-info.svg">
+				</a>
+
+				<a href="" class="btn btn--yellow btn--two-rows">
+					Get your
+					<span class="text--700">bonus now</span>
+					<img src="assets/img/icon-circle-arrow.svg">
+				</a>
+			</div>
+			<div class="casino-list__item">
+				<img src="assets/img/tsars-logo.png" alt="" class="casino-list__item__logo bg--brown">
+
+				<div class="casino-list__item__name">
+					<span>Tsar Casino</span>
+					<a href="">www.tsar.com</a>
+				</div>
+
+				<div class="casino-list__item__rating" data-rating="4.8">
+					<span class="casino-list__item__rating__star"></span>
+					<span class="casino-list__item__rating__star"></span>
+					<span class="casino-list__item__rating__star"></span>
+					<span class="casino-list__item__rating__star"></span>
+					<span class="casino-list__item__rating__star"></span>
+
+					<span class="casino-list__item__rating__count">4.8 / 5</span>
+				</div>
+
+				<div class="casino-list__item__text">
+					<span>up to</span>
+					$400
+				</div>
+
+				<div class="casino-list__item__text">
+					+125
+					<span>free spins</span>
+				</div>
+
+				<a href="" class="btn btn--grey">
+					<img src="assets/img/icon-info.svg">
+				</a>
+
+				<a href="" class="btn btn--yellow btn--two-rows">
+					Get your
+					<span class="text--700">bonus now</span>
+					<img src="assets/img/icon-circle-arrow.svg">
+				</a>
+			</div>
+
+			<a href="" class="btn btn--yellow text--600 text--upper">View all casinos</a>
+		</div>
+	</section>
+
+	<section class="short-more">
+		<div class="wrap">
+			<h2 class="short-more__title">Online Slots Casino Free Play</h2>
+
+			<div class="short-more__short">
+				<p>The best way to learn about a specific video slot game is to try playing it for free. This will give you a notion of how the game works, what sort of bonus games it features, how good are its graphics, and more.</p>
+			</div>
+
+			<button class="btn btn--transparent btn--more btn--small text--600"> information <img src="assets/img/icon-plus.svg"></button>
+
+			<div class="short-more__more">
+				<p>The best way to learn about a specific video slot game is to try playing it for free. This will give you a notion of how the game works, what sort of bonus games it features, how good are its graphics, and more.</p>
+			</div>
+		</div>
+	</section>
+
+	<section class="slider" data-slider-per-view="3">
+		<div class="wrap">
+			<div class="swiper">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide game__item">
+						<img src="assets/img/game.png" alt="">
+
+						<div class="game__item__bottom">
+							<div class="game__item__bottom__name">Banana OdysseyBanana OdysseyBanana Odyssey</div>
+							<a href="" class="btn btn--yellow">
+								<img src="assets/img/icon-circle-arrow.svg">
+							</a>
+						</div>
+					</div>
+					<div class="swiper-slide game__item">
+						<img src="assets/img/game.png" alt="">
+
+						<div class="game__item__bottom">
+							<div class="game__item__bottom__name">Banana Odyssey</div>
+							<a href="" class="btn btn--yellow">
+								<img src="assets/img/icon-circle-arrow.svg">
+							</a>
+						</div>
+					</div>
+					<div class="swiper-slide game__item">
+						<img src="assets/img/game.png" alt="">
+
+						<div class="game__item__bottom">
+							<div class="game__item__bottom__name">Banana Odyssey</div>
+							<a href="" class="btn btn--yellow">
+								<img src="assets/img/icon-circle-arrow.svg">
+							</a>
+						</div>
+					</div>
+					<div class="swiper-slide game__item">
+						<img src="assets/img/game.png" alt="">
+
+						<div class="game__item__bottom">
+							<div class="game__item__bottom__name">Banana Odyssey</div>
+							<a href="" class="btn btn--yellow">
+								<img src="assets/img/icon-circle-arrow.svg">
+							</a>
+						</div>
+					</div>
+					<div class="swiper-slide game__item">
+						<img src="assets/img/game.png" alt="">
+
+						<div class="game__item__bottom">
+							<div class="game__item__bottom__name">Banana Odyssey</div>
+							<a href="" class="btn btn--yellow">
+								<img src="assets/img/icon-circle-arrow.svg">
+							</a>
+						</div>
+					</div>
+					<div class="swiper-slide game__item">
+						<img src="assets/img/game.png" alt="">
+
+						<div class="game__item__bottom">
+							<div class="game__item__bottom__name">Banana Odyssey</div>
+							<a href="" class="btn btn--yellow">
+								<img src="assets/img/icon-circle-arrow.svg">
+							</a>
+						</div>
+					</div>
+					<div class="swiper-slide game__item">
+						<img src="assets/img/game.png" alt="">
+
+						<div class="game__item__bottom">
+							<div class="game__item__bottom__name">Banana Odyssey</div>
+							<a href="" class="btn btn--yellow">
+								<img src="assets/img/icon-circle-arrow.svg">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="swiper-pagination"></div>
+			<div class="swiper-button-prev"></div>
+			<div class="swiper-button-next"></div>
+		</div>
+
+		<a href="" class="btn btn--yellow text--600 text--upper">View all FREE SLOTS</a>
+	</section>
+
+	<section class="short-more">
+		<div class="wrap">
+			<h2 class="short-more__title">Online Casino & Slots FAQ</h2>
+
+			<div class="short-more__short">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sollicitudin turpis nec pharetra aliquam. Integer luctus erat nec erat feugiat, non aliquam est faucibus.</p>
+			</div>
+
+			<button class="btn btn--transparent btn--more btn--small text--600"> information <img src="assets/img/icon-plus.svg"></button>
+
+			<div class="short-more__more">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sollicitudin turpis nec pharetra aliquam. Integer luctus erat nec erat feugiat, non aliquam est faucibus.</p>
+			</div>
+		</div>
+	</section>
+
+	<section class="accordion">
+		<div class="wrap">
+			<div class="accordion__item">
+				<button class="accordion__label btn">Top Online Casino Slots — Play for Real Money</button>
+				<div class="accordion__panel">
+					<div class="accordion__panel__inner">
+						<p>Before we can recommend any online casino with real-money slots, we must do a thorough check to see whether that casino satisfies our criteria and can truly benefit the players.</p>
+						<p>While conducting reviews, we pay attention to several key aspects that can make or break a given casino site, including its bonuses, terms and conditions, selection of games, and banking methods.</p>
+						<h3>How We Review Online Slots Casinos</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sollicitudin turpis nec pharetra aliquam. Integer luctus erat nec erat feugiat, non aliquam est faucibus.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="accordion__item">
+				<button class="accordion__label btn">How We Review Online Slots Casinos</button>
+				<div class="accordion__panel">
+					<div class="accordion__panel__inner">
+						<p>Before we can recommend any online casino with real-money slots, we must do a thorough check to see whether that casino satisfies our criteria and can truly benefit the players.</p>
+						<p>While conducting reviews, we pay attention to several key aspects that can make or break a given casino site, including its bonuses, terms and conditions, selection of games, and banking methods.</p>
+						<h3>How We Review Online Slots Casinos</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sollicitudin turpis nec pharetra aliquam. Integer luctus erat nec erat feugiat, non aliquam est faucibus.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="accordion__item">
+				<button class="accordion__label btn">Lorem ipsum dolor sit amet, consectetur adipiscing elit?</button>
+				<div class="accordion__panel">
+					<div class="accordion__panel__inner">
+						<p>Before we can recommend any online casino with real-money slots, we must do a thorough check to see whether that casino satisfies our criteria and can truly benefit the players.</p>
+						<p>While conducting reviews, we pay attention to several key aspects that can make or break a given casino site, including its bonuses, terms and conditions, selection of games, and banking methods.</p>
+						<h3>How We Review Online Slots Casinos</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sollicitudin turpis nec pharetra aliquam. Integer luctus erat nec erat feugiat, non aliquam est faucibus.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="join">
+		<div class="wrap">
+			<div class="join__inner bg--lilac">
+				<h2 class="join__title">Join Play Some Slots VIP</h2>
+				<p class="join__description">Subscribe to our VIP newsletter and receive the best casino deals directly to your inbox. We will not spam you, we promise.</p>
+				<form class="join__form">
+					<input type="text" name="email" id="email" class="join__form__input" placeholder="Your e-mail address ...">
+					<button class="btn btn--yellow text--600">SUBSCRIBE NOW</button>
+				</form>
+				<img src="assets/img/join.png">
+			</div>
+		</div>
+	</section>
+
+	<section class="slots">
+		<div class="wrap">
+			<div class="game__item">
+				<img src="assets/img/flag-canada.png" alt="">
+
+				<div class="game__item__bottom">
+					<div class="game__item__bottom__name game__item__bottom__name--two-rows">
+						130 casinos
+						<span>Canada</span>
+					</div>
+					<a href="" class="btn btn--yellow">
+						<img src="assets/img/icon-circle-arrow.svg">
+					</a>
+				</div>
+			</div>
+
+			<div class="game__item">
+				<img src="assets/img/flag-british.png" alt="">
+
+				<div class="game__item__bottom">
+					<div class="game__item__bottom__name game__item__bottom__name--two-rows">
+						130 casinos
+						<span>New Zealand</span>
+					</div>
+					<a href="" class="btn btn--yellow">
+						<img src="assets/img/icon-circle-arrow.svg">
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="slider" data-slider-per-view="4">
+		<div class="wrap">
+			<div class="swiper">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide game__item">
+						<img src="assets/img/paypal.png" alt="" class="bg--lilac img--scale-down">
+
+						<div class="game__item__bottom">
+							<div class="game__item__bottom__name game__item__bottom__name--two-rows">
+								130 casinos
+								<span>PayPal</span>
+							</div>
+							<a href="" class="btn btn--yellow">
+								<img src="assets/img/icon-circle-arrow.svg">
+							</a>
+						</div>
+					</div>
+					<div class="swiper-slide game__item">
+						<img src="assets/img/paypal.png" alt="" class="bg--lilac img--scale-down">
+
+						<div class="game__item__bottom">
+							<div class="game__item__bottom__name game__item__bottom__name--two-rows">
+								130 casinos
+								<span>PayPal</span>
+							</div>
+							<a href="" class="btn btn--yellow">
+								<img src="assets/img/icon-circle-arrow.svg">
+							</a>
+						</div>
+					</div>
+					<div class="swiper-slide game__item">
+						<img src="assets/img/paypal.png" alt="" class="bg--lilac img--scale-down">
+
+						<div class="game__item__bottom">
+							<div class="game__item__bottom__name game__item__bottom__name--two-rows">
+								130 casinos
+								<span>PayPal</span>
+							</div>
+							<a href="" class="btn btn--yellow">
+								<img src="assets/img/icon-circle-arrow.svg">
+							</a>
+						</div>
+					</div>
+					<div class="swiper-slide game__item">
+						<img src="assets/img/paypal.png" alt="" class="bg--lilac img--scale-down">
+
+						<div class="game__item__bottom">
+							<div class="game__item__bottom__name game__item__bottom__name--two-rows">
+								130 casinos
+								<span>PayPal</span>
+							</div>
+							<a href="" class="btn btn--yellow">
+								<img src="assets/img/icon-circle-arrow.svg">
+							</a>
+						</div>
+					</div>
+					<div class="swiper-slide game__item">
+						<img src="assets/img/paypal.png" alt="" class="bg--lilac img--scale-down">
+
+						<div class="game__item__bottom">
+							<div class="game__item__bottom__name game__item__bottom__name--two-rows">
+								130 casinos
+								<span>PayPal</span>
+							</div>
+							<a href="" class="btn btn--yellow">
+								<img src="assets/img/icon-circle-arrow.svg">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="swiper-pagination"></div>
+			<div class="swiper-button-prev"></div>
+			<div class="swiper-button-next"></div>
+		</div>
+	</section>
+
+	<section class="slots">
+		<div class="wrap">
+			<div class="game__item">
+				<img src="assets/img/slots-logo.png" alt="" class="bg--brown img--scale-down">
+
+				<div class="game__item__bottom">
+					<div class="game__item__bottom__name game__item__bottom__name--two-rows">
+						130 casinos
+						<span>Play'n Go</span>
+					</div>
+					<a href="" class="btn btn--yellow">
+						<img src="assets/img/icon-circle-arrow.svg">
+					</a>
+				</div>
+			</div>
+			<div class="game__item">
+				<img src="assets/img/slots-logo.png" alt="" class="bg--brown img--scale-down">
+
+				<div class="game__item__bottom">
+					<div class="game__item__bottom__name game__item__bottom__name--two-rows">
+						130 casinos
+						<span>Play'n Go</span>
+					</div>
+					<a href="" class="btn btn--yellow">
+						<img src="assets/img/icon-circle-arrow.svg">
+					</a>
+				</div>
+			</div>
+			<div class="game__item">
+				<img src="assets/img/slots-logo.png" alt="" class="bg--brown img--scale-down">
+
+				<div class="game__item__bottom">
+					<div class="game__item__bottom__name game__item__bottom__name--two-rows">
+						130 casinos
+						<span>Play'n Go</span>
+					</div>
+					<a href="" class="btn btn--yellow">
+						<img src="assets/img/icon-circle-arrow.svg">
+					</a>
+				</div>
+			</div>
+			<div class="game__item">
+				<img src="assets/img/slots-logo.png" alt="" class="bg--brown img--scale-down">
+
+				<div class="game__item__bottom">
+					<div class="game__item__bottom__name game__item__bottom__name--two-rows">
+						130 casinos
+						<span>Play'n Go</span>
+					</div>
+					<a href="" class="btn btn--yellow">
+						<img src="assets/img/icon-circle-arrow.svg">
+					</a>
+				</div>
+			</div>
+			<div class="game__item">
+				<img src="assets/img/slots-logo.png" alt="" class="bg--brown img--scale-down">
+
+				<div class="game__item__bottom">
+					<div class="game__item__bottom__name game__item__bottom__name--two-rows">
+						130 casinos
+						<span>Play'n Go</span>
+					</div>
+					<a href="" class="btn btn--yellow">
+						<img src="assets/img/icon-circle-arrow.svg">
+					</a>
+				</div>
+			</div>
+			<div class="game__item">
+				<img src="assets/img/slots-logo.png" alt="" class="bg--brown img--scale-down">
+
+				<div class="game__item__bottom">
+					<div class="game__item__bottom__name game__item__bottom__name--two-rows">
+						130 casinos
+						<span>Play'n Go</span>
+					</div>
+					<a href="" class="btn btn--yellow">
+						<img src="assets/img/icon-circle-arrow.svg">
+					</a>
+				</div>
+			</div>
+			<div class="game__item">
+				<img src="assets/img/slots-logo.png" alt="" class="bg--brown img--scale-down">
+
+				<div class="game__item__bottom">
+					<div class="game__item__bottom__name game__item__bottom__name--two-rows">
+						130 casinos
+						<span>Play'n Go</span>
+					</div>
+					<a href="" class="btn btn--yellow">
+						<img src="assets/img/icon-circle-arrow.svg">
+					</a>
+				</div>
+			</div>
+			<div class="game__item">
+				<img src="assets/img/slots-logo.png" alt="" class="bg--brown img--scale-down">
+
+				<div class="game__item__bottom">
+					<div class="game__item__bottom__name game__item__bottom__name--two-rows">
+						130 casinos
+						<span>Play'n Go</span>
+					</div>
+					<a href="" class="btn btn--yellow">
+						<img src="assets/img/icon-circle-arrow.svg">
+					</a>
+				</div>
+			</div>
+			<div class="game__item">
+				<img src="assets/img/slots-logo.png" alt="" class="bg--brown img--scale-down">
+
+				<div class="game__item__bottom">
+					<div class="game__item__bottom__name game__item__bottom__name--two-rows">
+						130 casinos
+						<span>Play'n Go</span>
+					</div>
+					<a href="" class="btn btn--yellow">
+						<img src="assets/img/icon-circle-arrow.svg">
+					</a>
+				</div>
+			</div>
+			<div class="game__item">
+				<img src="assets/img/slots-logo.png" alt="" class="bg--brown img--scale-down">
+
+				<div class="game__item__bottom">
+					<div class="game__item__bottom__name game__item__bottom__name--two-rows">
+						130 casinos
+						<span>Play'n Go</span>
+					</div>
+					<a href="" class="btn btn--yellow">
+						<img src="assets/img/icon-circle-arrow.svg">
+					</a>
+				</div>
+			</div>
+			<div class="game__item">
+				<img src="assets/img/slots-logo.png" alt="" class="bg--brown img--scale-down">
+
+				<div class="game__item__bottom">
+					<div class="game__item__bottom__name game__item__bottom__name--two-rows">
+						130 casinos
+						<span>Play'n Go</span>
+					</div>
+					<a href="" class="btn btn--yellow">
+						<img src="assets/img/icon-circle-arrow.svg">
+					</a>
+				</div>
+			</div>
+			<div class="game__item">
+				<img src="assets/img/slots-logo.png" alt="" class="bg--brown img--scale-down">
+
+				<div class="game__item__bottom">
+					<div class="game__item__bottom__name game__item__bottom__name--two-rows">
+						130 casinos
+						<span>Play'n Go</span>
+					</div>
+					<a href="" class="btn btn--yellow">
+						<img src="assets/img/icon-circle-arrow.svg">
+					</a>
+				</div>
+			</div>
+			<div class="game__item">
+				<img src="assets/img/slots-logo.png" alt="" class="bg--brown img--scale-down">
+
+				<div class="game__item__bottom">
+					<div class="game__item__bottom__name game__item__bottom__name--two-rows">
+						130 casinos
+						<span>Play'n Go</span>
+					</div>
+					<a href="" class="btn btn--yellow">
+						<img src="assets/img/icon-circle-arrow.svg">
+					</a>
+				</div>
+			</div>
+			<div class="game__item">
+				<img src="assets/img/slots-logo.png" alt="" class="bg--brown img--scale-down">
+
+				<div class="game__item__bottom">
+					<div class="game__item__bottom__name game__item__bottom__name--two-rows">
+						130 casinos
+						<span>Play'n Go</span>
+					</div>
+					<a href="" class="btn btn--yellow">
+						<img src="assets/img/icon-circle-arrow.svg">
+					</a>
+				</div>
+			</div>
+			<div class="game__item">
+				<img src="assets/img/slots-logo.png" alt="" class="bg--brown img--scale-down">
+
+				<div class="game__item__bottom">
+					<div class="game__item__bottom__name game__item__bottom__name--two-rows">
+						130 casinos
+						<span>Play'n Go</span>
+					</div>
+					<a href="" class="btn btn--yellow">
+						<img src="assets/img/icon-circle-arrow.svg">
+					</a>
+				</div>
+			</div>
+			<div class="game__item">
+				<img src="assets/img/slots-logo.png" alt="" class="bg--brown img--scale-down">
+
+				<div class="game__item__bottom">
+					<div class="game__item__bottom__name game__item__bottom__name--two-rows">
+						130 casinos
+						<span>Play'n Go</span>
+					</div>
+					<a href="" class="btn btn--yellow">
+						<img src="assets/img/icon-circle-arrow.svg">
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="slots">
+		<div class="wrap">
+			<input type="text" name="search-input" id="search-input" class="search-input" placeholder="Type to search ...">
+
+			<div class="game__item game__item--third">
+				<img src="assets/img/slots-logo.png" alt="" class="bg--brown img--scale-down">
+
+				<div class="game__item__bottom">
+					<div class="game__item__bottom__name">
+						Banana Odyssey
+					</div>
+					<a href="" class="btn btn--yellow">
+						<img src="assets/img/icon-circle-arrow.svg">
+					</a>
+				</div>
+			</div>
+			<div class="game__item game__item--third">
+				<img src="assets/img/slots-logo.png" alt="" class="bg--brown img--scale-down">
+
+				<div class="game__item__bottom">
+					<div class="game__item__bottom__name">
+						Banana Odyssey
+					</div>
+					<a href="" class="btn btn--yellow">
+						<img src="assets/img/icon-circle-arrow.svg">
+					</a>
+				</div>
+			</div>
+			<div class="game__item game__item--third">
+				<img src="assets/img/slots-logo.png" alt="" class="bg--brown img--scale-down">
+
+				<div class="game__item__bottom">
+					<div class="game__item__bottom__name">
+						Banana Odyssey
+					</div>
+					<a href="" class="btn btn--yellow">
+						<img src="assets/img/icon-circle-arrow.svg">
+					</a>
+				</div>
+			</div>
+			<div class="game__item game__item--third">
+				<img src="assets/img/slots-logo.png" alt="" class="bg--brown img--scale-down">
+
+				<div class="game__item__bottom">
+					<div class="game__item__bottom__name">
+						Banana Odyssey
+					</div>
+					<a href="" class="btn btn--yellow">
+						<img src="assets/img/icon-circle-arrow.svg">
+					</a>
+				</div>
+			</div>
+			<div class="game__item game__item--third">
+				<img src="assets/img/slots-logo.png" alt="" class="bg--brown img--scale-down">
+
+				<div class="game__item__bottom">
+					<div class="game__item__bottom__name">
+						Banana Odyssey
+					</div>
+					<a href="" class="btn btn--yellow">
+						<img src="assets/img/icon-circle-arrow.svg">
+					</a>
+				</div>
+			</div>
+			<div class="game__item game__item--third">
+				<img src="assets/img/slots-logo.png" alt="" class="bg--brown img--scale-down">
+
+				<div class="game__item__bottom">
+					<div class="game__item__bottom__name">
+						Banana Odyssey
+					</div>
+					<a href="" class="btn btn--yellow">
+						<img src="assets/img/icon-circle-arrow.svg">
+					</a>
+				</div>
+			</div>
+			<div class="game__item game__item--third">
+				<img src="assets/img/slots-logo.png" alt="" class="bg--brown img--scale-down">
+
+				<div class="game__item__bottom">
+					<div class="game__item__bottom__name">
+						Banana Odyssey
+					</div>
+					<a href="" class="btn btn--yellow">
+						<img src="assets/img/icon-circle-arrow.svg">
+					</a>
+				</div>
+			</div>
+			<div class="game__item game__item--third">
+				<img src="assets/img/slots-logo.png" alt="" class="bg--brown img--scale-down">
+
+				<div class="game__item__bottom">
+					<div class="game__item__bottom__name">
+						Banana Odyssey
+					</div>
+					<a href="" class="btn btn--yellow">
+						<img src="assets/img/icon-circle-arrow.svg">
+					</a>
+				</div>
+			</div>
+			<div class="game__item game__item--third">
+				<img src="assets/img/slots-logo.png" alt="" class="bg--brown img--scale-down">
+
+				<div class="game__item__bottom">
+					<div class="game__item__bottom__name">
+						Banana Odyssey
+					</div>
+					<a href="" class="btn btn--yellow">
+						<img src="assets/img/icon-circle-arrow.svg">
+					</a>
+				</div>
+			</div>
+			<div class="game__item game__item--third">
+				<img src="assets/img/slots-logo.png" alt="" class="bg--brown img--scale-down">
+
+				<div class="game__item__bottom">
+					<div class="game__item__bottom__name">
+						Banana Odyssey
+					</div>
+					<a href="" class="btn btn--yellow">
+						<img src="assets/img/icon-circle-arrow.svg">
+					</a>
+				</div>
+			</div>
+			<div class="game__item game__item--third">
+				<img src="assets/img/slots-logo.png" alt="" class="bg--brown img--scale-down">
+
+				<div class="game__item__bottom">
+					<div class="game__item__bottom__name">
+						Banana Odyssey
+					</div>
+					<a href="" class="btn btn--yellow">
+						<img src="assets/img/icon-circle-arrow.svg">
+					</a>
+				</div>
+			</div>
+			<div class="game__item game__item--third">
+				<img src="assets/img/slots-logo.png" alt="" class="bg--brown img--scale-down">
+
+				<div class="game__item__bottom">
+					<div class="game__item__bottom__name">
+						Banana Odyssey
+					</div>
+					<a href="" class="btn btn--yellow">
+						<img src="assets/img/icon-circle-arrow.svg">
+					</a>
+				</div>
+			</div>
+
+			<div class="pagination">
+				<button class="btn pagination__btn pagination__prev">PREVIOUS</button>
+				<button class="btn pagination__btn pagination__next">NEXT</button>
+			</div>
+		</div>
+	</section>
+
+	<section class="breadcrumbs" itemscope="" itemtype="http://schema.org/BreadcrumbList">
+		<div class="wrap">
+			<span itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+				<a href="" itemprop="item">
+					<span itemprop="name">Home</span>
+				</a>
+				<meta itemprop="position" content="1">
+			</span>
+
+			<span class="breadcrumbs__separator"></span>
+
+			<span itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+				<a href="" itemprop="item">
+					<span itemprop="name">Casinos</span>
+				</a>
+				<meta itemprop="position" content="2">
+			</span>
+
+			<span class="breadcrumbs__separator"></span>
+
+			<span itemprop="itemListElement" itemscope="">
+				Tsar Casino Review
+			</span>
+		</div>
+	</section>
+
+	<section class="main-content">
+		<div class="wrap">
+			<div class="main-content__header bg--lilac">
+				<img src="assets/img/tsars-logo.png">
+				<h1 class="main-content__header__title">Tsar Casino</h1>
+			</div>
+
+			<div class="main-content__flex">
+				<div class="main-content__main">
+					<div class="casino-list__item">
+						<img src="assets/img/tsars-logo.png" alt="" class="casino-list__item__logo bg--lilac">
+
+						<div class="casino-list__item__rating" data-rating="1">
+							<span class="casino-list__item__rating__star casino-list__item__rating__star--full"></span>
+							<span class="casino-list__item__rating__star"></span>
+							<span class="casino-list__item__rating__star"></span>
+							<span class="casino-list__item__rating__star"></span>
+							<span class="casino-list__item__rating__star"></span>
+
+							<span class="casino-list__item__rating__count">1 / 5</span>
+						</div>
+
+						<div class="casino-list__item__text">
+							<span>up to</span>
+							$400
+						</div>
+
+						<div class="casino-list__item__text">
+							+125
+							<span>free spins</span>
+						</div>
+
+						<a href="" class="btn btn--yellow btn--two-rows">
+							Get your
+							<span class="text--700">bonus now</span>
+							<img src="assets/img/icon-circle-arrow.svg">
+						</a>
+					</div>
+
+					<div class="main-content__main__text">
+						<h2>Tsars Casino Reveiw</h2>
+						<p>When was the last time you were on vacation to someplace exotic? A place that is so remarkably cunning and calm that no thought of even leaving pops up. What if that such a place exists wherever you will need it to be and only a few clicks away? Well, it does, and the name of that place is Tsars.com.</p>
+						<p>Explore new horizons at the Tsars. It’s a casino that promises to take you up and through the clouds to show the way to all new fortunes. With a well-established and trusted brand, you are looking for a hassle-free experience where you set the direction.</p>
+
+						<div class="main-content__main__tags">
+							<div class="main-content__main__tags__tag">
+								<b>Establishment year:</b> 
+								<a href="" class="main-content__main__tags__tag__item">2008</a>
+							</div>
+							<div class="main-content__main__tags__tag">
+								<b>Licenses:</b> 
+								<a href="" class="main-content__main__tags__tag__item">Malta Gaming Authority</a>
+							</div>
+							<div class="main-content__main__tags__tag">
+								<b>Deposit:</b> 
+								<a href="" class="main-content__main__tags__tag__item">Credit Card</a>
+								<a href="" class="main-content__main__tags__tag__item">EcoPayz</a>
+								<a href="" class="main-content__main__tags__tag__item">Maestro</a>
+								<a href="" class="main-content__main__tags__tag__item">Mastercard</a>
+								<a href="" class="main-content__main__tags__tag__item">Neosurf</a>
+								<a href="" class="main-content__main__tags__tag__item">Neteller</a>
+								<a href="" class="main-content__main__tags__tag__item">Trustly</a>
+								<a href="" class="main-content__main__tags__tag__item">Visa</a>
+							</div>
+							<div class="main-content__main__tags__tag">
+								<b>Providers (software):</b> 
+								<a href="" class="main-content__main__tags__tag__item">1x2gaming</a>
+								<a href="" class="main-content__main__tags__tag__item">Iron Dog Studios</a>
+							</div>
+						</div>
+
+						<div class="main-content__main__pros-cons">
+							<div class="main-content__main__pros-cons__title">Pros & Cons</div>
+
+							<ul class="main-content__main__pros-cons__plus">
+								<li>Rewarding welcome bonus</li>
+								<li>Rewarding welcome bonus</li>
+								<li>Rewarding welcome bonus</li>
+								<li>Rewarding welcome bonus</li>
+							</ul>
+
+							<ul class="main-content__main__pros-cons__minus">
+								<li>Rewarding welcome bonus</li>
+								<li>Rewarding welcome bonus</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="main-content__main__text">
+						<h2>Terms & Conditions</h2>
+						<p>When was the last time you were on vacation to someplace exotic? A place that is so remarkably cunning and calm that no thought of even leaving pops up. What if that such a place exists wherever you will need it to be and only a few clicks away? Well, it does, and the name of that place is Tsars.com.</p>
+						<p>Explore new horizons at the Tsars. It’s a casino that promises to take you up and through the clouds to show the way to all new fortunes. With a well-established and trusted brand, you are looking for a hassle-free experience where you set the direction.</p>
+						<h2>Bonuses & Promotions</h2>
+						<p>When was the last time you were on vacation to someplace exotic? A place that is so remarkably cunning and calm that no thought of even leaving pops up. What if that such a place exists wherever you will need it to be and only a few clicks away? Well, it does, and the name of that place is Tsars.com.</p>
+						<p>Explore new horizons at the Tsars. It’s a casino that promises to take you up and through the clouds to show the way to all new fortunes. With a well-established and trusted brand, you are looking for a hassle-free experience where you set the direction.</p>
+					</div>
+				</div>
+
+				<div class="main-content__sidebar">
+					<p class="main-content__sidebar__title">Searching For The Best Casino To Play?</p>
+
+					<p class="main-content__sidebar__description">Read more reviews on Play Some Slots, here is the list:</p>
+
+					<div class="slots__item bg--brown">
+						<div class="slots__item__top">
+							<div class="slots__item__free-spins">
+								+125
+								<span>free spins</span>
+							</div>
+
+							<div class="slots__item__logo">
+								<img src="assets/img/tsars-logo.png" alt="">
+							</div>
+						</div>
+
+						<div class="slots__item__up-to">
+							+100%
+							<span>up to $1000</span>
+						</div>
+
+						<div class="slots__item__bottom">
+							<a href="" class="btn btn--yellow btn--two-rows">
+								Get your
+								<span class="text--700">bonus now</span>
+								<img src="assets/img/icon-circle-arrow.svg">
+							</a>
+
+							<a href="" class="btn btn--dark">
+								<img src="assets/img/icon-info.svg">
+							</a>
+						</div>
+					</div>
+
+					<div class="slots__item bg--brown">
+						<div class="slots__item__top">
+							<div class="slots__item__free-spins">
+								+125
+								<span>free spins</span>
+							</div>
+
+							<div class="slots__item__logo">
+								<img src="assets/img/tsars-logo.png" alt="">
+							</div>
+						</div>
+
+						<div class="slots__item__up-to">
+							+100%
+							<span>up to $1000</span>
+						</div>
+
+						<div class="slots__item__bottom">
+							<a href="" class="btn btn--yellow btn--two-rows">
+								Get your
+								<span class="text--700">bonus now</span>
+								<img src="assets/img/icon-circle-arrow.svg">
+							</a>
+
+							<a href="" class="btn btn--dark">
+								<img src="assets/img/icon-info.svg">
+							</a>
+						</div>
+					</div>
+
+					<div class="slots__item bg--brown">
+						<div class="slots__item__top">
+							<div class="slots__item__free-spins">
+								+125
+								<span>free spins</span>
+							</div>
+
+							<div class="slots__item__logo">
+								<img src="assets/img/tsars-logo.png" alt="">
+							</div>
+						</div>
+
+						<div class="slots__item__up-to">
+							+100%
+							<span>up to $1000</span>
+						</div>
+
+						<div class="slots__item__bottom">
+							<a href="" class="btn btn--yellow btn--two-rows">
+								Get your
+								<span class="text--700">bonus now</span>
+								<img src="assets/img/icon-circle-arrow.svg">
+							</a>
+
+							<a href="" class="btn btn--dark">
+								<img src="assets/img/icon-info.svg">
+							</a>
+						</div>
+					</div>
+
+					<center><a href="" class="btn btn--dark text--600">View all casinos</a></center>
+				</div>
+			</div>
+
+			<div class="casino-list__item">
+				<img src="assets/img/tsars-logo.png" alt="" class="casino-list__item__logo bg--lilac">
+
+				<div class="casino-list__item__name">
+					<span>Tsar Casino</span>
+					<a href="">www.tsar.com</a>
+				</div>
+
+				<div class="casino-list__item__rating" data-rating="1">
+					<span class="casino-list__item__rating__star casino-list__item__rating__star--full"></span>
+					<span class="casino-list__item__rating__star"></span>
+					<span class="casino-list__item__rating__star"></span>
+					<span class="casino-list__item__rating__star"></span>
+					<span class="casino-list__item__rating__star"></span>
+
+					<span class="casino-list__item__rating__count">1 / 5</span>
+				</div>
+
+				<div class="casino-list__item__text">
+					<span>up to</span>
+					$400
+				</div>
+
+				<div class="casino-list__item__text">
+					+125
+					<span>free spins</span>
+				</div>
+
+				<a href="" class="btn btn--grey">
+					<img src="assets/img/icon-info.svg">
+				</a>
+
+				<a href="" class="btn btn--yellow btn--two-rows">
+					Get your
+					<span class="text--700">bonus now</span>
+					<img src="assets/img/icon-circle-arrow.svg">
+				</a>
+			</div>
+		</div>
+	</section>
+
+	<section class="breadcrumbs" itemscope="" itemtype="http://schema.org/BreadcrumbList">
+		<div class="wrap">
+			<span itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+				<a href="" itemprop="item">
+					<span itemprop="name">Home</span>
+				</a>
+				<meta itemprop="position" content="1">
+			</span>
+
+			<span class="breadcrumbs__separator"></span>
+
+			<span itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+				<a href="" itemprop="item">
+					<span itemprop="name">Free Slots</span>
+				</a>
+				<meta itemprop="position" content="2">
+			</span>
+
+			<span class="breadcrumbs__separator"></span>
+
+			<span itemprop="itemListElement" itemscope="">
+				Street fighter 2: the world warrior
+			</span>
+		</div>
+	</section>
+
+	<section class="main-content">
+		<div class="wrap">
+			<div class="main-content__flex">
+				<div class="main-content__main">
+					<div class="main-content__main__iframe" launch-slot-iframe-container>
+						<img src="assets/img/iframe-placeholder.png">
+
+						<div class="main-content__main__iframe__over">
+							<a href="" target="_blank" class="btn btn--yellow">Play for real on <span class="text--600">Tsar Casino</span></a>
+							<button class="btn btn--dark" launch-slot-iframe-btn data-iframe-src="https://redirector32.valueactive.eu/Casino/Default.aspx?applicationid=4023&sext1=demo&sext2=demo&csid=1866&serverid=22619&variant=uat-demo&ul=EN&gameid=ReelGems">Launch and play the slot for free!</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="main-content__sidebar">
+					<div class="main-content__sidebar__free-slot">Free Slot:</div>
+
+					<div class="main-content__sidebar__name">Street fighter 2: the world warrior</div>
+
+					<div class="main-content__sidebar__from">This is the free slot machine from the<br><a href="" class="text--600">NetEnt</a> provider.</div>
+
+					<div class="main-content__sidebar__from text--600">Ready to play it on an real casino?</div>
+
+					<div class="casino-list__item">
+						<img src="assets/img/tsars-logo.png" alt="" class="casino-list__item__logo bg--lilac">
+
+						<div class="casino-list__item__name">
+							<span>Tsar Casino</span>
+							<a href="">www.tsar.com</a>
+						</div>
+
+						<a href="" class="btn btn--yellow">
+							<img src="assets/img/icon-circle-arrow.svg">
+						</a>
+					</div>
+					<div class="casino-list__item">
+						<img src="assets/img/tsars-logo.png" alt="" class="casino-list__item__logo bg--lilac">
+
+						<div class="casino-list__item__name">
+							<span>Tsar Casino</span>
+							<a href="">www.tsar.com</a>
+						</div>
+
+						<a href="" class="btn btn--yellow">
+							<img src="assets/img/icon-circle-arrow.svg">
+						</a>
+					</div>
+					<div class="casino-list__item">
+						<img src="assets/img/tsars-logo.png" alt="" class="casino-list__item__logo bg--lilac">
+
+						<div class="casino-list__item__name">
+							<span>Tsar Casino</span>
+							<a href="">www.tsar.com</a>
+						</div>
+
+						<a href="" class="btn btn--yellow">
+							<img src="assets/img/icon-circle-arrow.svg">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="footer">
+		<div class="wrap">
+			<div class="footer__top">
+				<div>
+					<a href="" class="header__logo">
+						<img src="assets/img/logo.svg" alt="logo">
+						Play Some Slots
+					</a>
+					<p>Play Some Slots is a vibrant group of men and women in our prime, who just like you, spent countless hours and money gambling online.</p>
+					<a href="" class="btn btn--yellow text--600">GET IN TOUCH</a>
+				</div>
+
+				<div>
+					<p class="footer__top__title">Legal & About</p>
+					<ul>
+						<li><a href="">Terms & Conditions</a></li>
+						<li><a href="">Privacy Policy</a></li>
+						<li><a href="">Responsible Gambling</a></li>
+						<li><a href="">About Play Some Slots</a></li>
+						<li><a href="">How we test slots</a></li>
+					</ul>
+				</div>
+
+				<div>
+					<p class="footer__top__title">Casino Reviews</p>
+					<ul>
+						<li><a href="">All Casinos</a></li>
+						<li><a href="">Crypto Casinos</a></li>
+						<li><a href="">Deposit Methods</a></li>
+					</ul>
+				</div>
+
+				<div>
+					<p class="footer__top__title">Free Slots Reviews</p>
+					<ul>
+						<li><a href="">All Free Slot Games</a></li>
+						<li><a href="">Highest RTP Online Slots</a></li>
+						<li><a href="">Slot Bonus Hit Frequency</a></li>
+						<li><a href="">Online Slots Tips</a></li>
+						<li><a href="">RNG technology</a></li>
+						<li><a href="">Providers</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="footer__bottom">
+				<p><span class="text--600">RESPONSIBLE GAMING:</span> We are not responsible for any losses from gambling in casinos or bet in betting sites linked to any of our bonus offers. The player is responsible for how much the person is willing and able to play for. Do not bet or wager with money you cannot afford to lose. Do not chase your losses. Players are responsible for checking the gaming laws in their country or jurisdiction and must do so before playing for money on any online gambling site.</p>
+				<p><span class="text--600">ATTENTION:</span> Offers on our site are able to evolve or getting canceled. We always recommend that the player examines the conditions and double-check the bonus directly on the casino/bet companies website.</p>
+				<p>18+, New Customer Only, T&C Apply, Gamble Responsibly <a href="" class="text--600">www.begambleaware.org</a>.</p>
+				<p>© 2020 Play Some Slots</p>
+			</div>
+		</div>
+	</footer>
+
+	<div class="mobile-menu">
+		<button class="btn btn--burger btn--transparent active" mobile-menu-button-close>
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+		</button>
+
+		<ul>
+			<li>
+				<a href="">HOME</a>
+			</li>
+			<li>
+				<a href="">Casino Reviews</a>
+			</li>
+			<li>
+				<a href="">Best online casino</a>
+			</li>
+			<li>
+				<a href="">Best online casino</a>
+			</li>
+			<li>
+				<a href="">Free Slot Games</a>
+			</li>
+			<li>
+				<a href="">Best online casino</a>
+			</li>
+			<li>
+				<a href="">Best online casino</a>
+			</li>
+			<li>
+				<a href="">Blog</a>
+			</li>
+		</ul>
+	</div>
 </body>
-
 </html>
