@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap");
+body {
+  margin: 0;
+  background-color: #212936;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+p {
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.header {
+  display: flex;
+  height: 80px;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .header__left {
+  display: flex;
+  align-items: center;
+}
+.header .header__left svg {
+  width: 40px;
+  height: 40px;
+}
+.header .header__left p {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 18px;
+  color: #ffffff;
+  margin: 0 0 0 10px;
+}
+.header .header__right {
+  display: flex;
+}
+.header .header__right ul {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+  cursor: pointer;
+}
+.header .header__right svg {
+  width: 14px;
+  height: 8px;
+  fill: #9DA3AE;
+  margin: 0 0 0 5px;
+}
+.header .header__right a {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #ffffff;
+  border-bottom: 2px solid #212936;
+}
+.header .header__right a:hover {
+  border-bottom: 2px solid #ffc107;
+  transition: all 0.2s ease;
+}
